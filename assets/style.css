@@ -23,7 +23,7 @@ p {
 	color:  #bbcfec;
 	border-width: thin;
 	border-style: dotted solid;
-	border-radius: 12px;
+	border-radius: 0.5%;
 }
 a {
 	text-decoration: none;
