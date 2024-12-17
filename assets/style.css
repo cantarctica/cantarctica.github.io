@@ -10,9 +10,9 @@ h1 {
 @media only screen and (max-width: 2500px) {h1 {font-size: 45px;}}
 @media only screen and (max-width: 2020px) {h1 {font-size: 40px;}}
 @media only screen and (max-width: 1750px) {h1 {font-size: 30px;}}
-@media only screen and (max-width: 1300px) {h1 {font-size: 25px;}}
-@media only screen and (max-width: 1150px) {h1 {font-size: 20px;}}
-@media only screen and (max-width: 950px) {h1 {font-size: 15px;}}
+@media only screen and (max-width: 1300px) {h1 {font-size: 35px;}}
+@media only screen and (max-width: 1150px) {h1 {font-size: 30px;}}
+@media only screen and (max-width: 950px) {h1 {font-size: 25px;}}
 
 .logo {
 	margin-left: 33%;
@@ -24,9 +24,9 @@ h1 {
 
 @media only screen and (max-width: 1300px) {
 	.logo {
-		margin-left: 20%;
-		margin-right: 20%;
-		margin-bottom: 0.5%
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 0.25%
 		}
 }
 
