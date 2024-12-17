@@ -54,6 +54,13 @@ th {
 td {
 	color: #bbcfec;
 }
+
 td {
 	color: #eed8e5;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
