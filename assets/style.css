@@ -24,13 +24,17 @@ p {
 }
 
 div {
-	clear: both;
-	color:  #bbcfec;
-	border-width: thin;
-	border-style: dotted;
 	border-radius: 1%;
 	padding: 4%;
-	
+}
+
+.flex-container {
+  	display: flex;
+ 	flex-wrap: nowrap;
+ 	clear: both;
+  	color:  #bbcfec;
+	border-width: thin;
+	border-style: dotted;
 }
 
 a {
@@ -64,10 +68,4 @@ td {
 
 td {
 	color: #eed8e5;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
