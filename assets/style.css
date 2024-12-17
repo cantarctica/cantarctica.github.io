@@ -21,11 +21,18 @@ h6 {
 }
 p {
 	color:  #bbcfec;
+}
+
+div {
+	clear: both;
+	color:  #bbcfec;
 	border-width: thin;
 	border-style: dotted;
 	border-radius: 1%;
-	padding: 5px;
+	padding: 4%;
+	
 }
+
 a {
 	text-decoration: none;
 }
