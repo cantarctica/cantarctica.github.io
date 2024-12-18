@@ -49,6 +49,8 @@ h6 {
 }
 p {
 	color:  #bbcfec;
+	font-family: "Inter", sans-serif;
+	font-size: 2rem;
 }
 
 div {
@@ -67,15 +69,18 @@ div {
 	border-width: thin;
 	border-style: dotted;
 }
+.navbar {
+	background-color: #1b2f4c;
+	
 
 a {
 	text-decoration: none;
 }
 a:link { 
-	color: #df93cc;
+	color: #6f73db;
 }
 a:visited { 
-	color: #90758d;
+	color: #413a7f;
 }
 a:hover {
 	text-decoration: underline;
@@ -85,18 +90,4 @@ ul {
 }
 ol {
 	color: #8bbfec;
-}
-table {
-	color: #dab2cc;
-	border-color: #90758d;
-}
-th {
-	color: #90758d;
-}
-td {
-	color: #bbcfec;
-}
-
-td {
-	color: #eed8e5;
 }
