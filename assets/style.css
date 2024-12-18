@@ -61,6 +61,9 @@ div {
  	flex-wrap: nowrap;
  	clear: both;
   	color:  #bbcfec;
+}
+
+.media-box {
 	border-width: thin;
 	border-style: dotted;
 }
