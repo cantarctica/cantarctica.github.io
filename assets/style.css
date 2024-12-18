@@ -66,8 +66,7 @@ div {
 }
 
 .media-box {
-	border-width: thin;
-	border-style: dotted;
+	background-color: #091b35;
 }
 .navbar {
 	background-color: #1b2f4c;
