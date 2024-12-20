@@ -64,16 +64,10 @@ div {
 }
 
 .flex-container {
-  	display: flex;
+  	display: run-in;
  	flex-wrap: nowrap;
  	clear: both;
   	color:  #bbcfec;
-}
-@media only screen and (max-width: 950px) {
-	.flex-container {
-		display:inline;
-		clear: none;
-	}
 }
 
 .media-box {
