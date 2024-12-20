@@ -69,6 +69,8 @@ div {
  	clear: both;
   	color:  #bbcfec;
 }
+@media only screen and (max-width: 950px) {
+	.flex-container {display:block;}}
 
 .media-box {
 	background-color: #091b35;
