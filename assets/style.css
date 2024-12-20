@@ -70,7 +70,11 @@ div {
   	color:  #bbcfec;
 }
 @media only screen and (max-width: 950px) {
-	.flex-container {display:block;}}
+	.flex-container {
+		display:inline;
+		clear: none;
+	}
+}
 
 .media-box {
 	background-color: #091b35;
