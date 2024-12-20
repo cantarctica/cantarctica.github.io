@@ -64,7 +64,7 @@ div {
 }
 
 .flex-container {
-  	display: run-in;
+  	display: flex;
  	flex-wrap: nowrap;
  	clear: both;
   	color:  #bbcfec;
