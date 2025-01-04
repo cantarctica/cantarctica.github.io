@@ -15,10 +15,11 @@ h1 {
 @media only screen and (min-width: 950px) {h1 {font-size: 6rem;}}
 
 .logo {
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 1%;
-	margin-bottom: 0.5%;
+	width:40%;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
 	align-self: center;
 	border: hidden;
 }
