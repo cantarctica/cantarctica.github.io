@@ -1,42 +1,44 @@
 body {
 	background-color: #0b1f3c;
 }
+
 h1 {
 	color:  #8bbfec;
 	font-family: Chakra Petch, sans-serif;
-	font-size: 300%;
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+@media only screen and (min-width: 2501px) {h1 {font-size: 105px;}}
+@media only screen and (max-width: 2500px) {h1 {font-size: 90px;}}
+@media only screen and (max-width: 2020px) {h1 {font-size: 80px;}}
+@media only screen and (max-width: 1750px) {h1 {font-size: 70px;}}
+@media only screen and (max-width: 1300px) {h1 {font-size: 60px;}}
+@media only screen and (max-width: 1150px) {h1 {font-size: 50px;}}
+@media only screen and (max-width: 950px) {h1 {font-size: 3rem;}}
+@media only screen and (max-width: 560px) {h1 {font-size: 2.5rem;}}
+
+.tagline {
+	margin-top:0;
+	margin-bottom:0;
+	font-family:Manrope,sans-serif;
 }
 
-@media only screen and (min-width: 2500px) {h1 {font-size: 90px;}}
-@media only screen and (min-width: 2020px) {h1 {font-size: 40px;}}
-@media only screen and (min-width: 1750px) {h1 {font-size: 30px;}}
-@media only screen and (min-width: 1300px) {h1 {font-size: 50px;}}
-@media only screen and (min-width: 1150px) {h1 {font-size: 30px;}}
-@media only screen and (min-width: 950px) {h1 {font-size: 6rem;}}
-
+@media only screen and (max-width: 1000px) {.tagline {font-size:1.75rem;}}
+@media only screen and (max-width: 872px) {.tagline {font-size:1.5rem;}}
+@media only screen and (max-width: 746px) {.tagline {font-size:1.25rem;}}
+@media only screen and (max-width: 629px) {.tagline {font-size:1.15rem;}}
+@media only screen and (max-width: 580px) {.tagline {font-size:1.05rem;}}
+@media only screen and (max-width: 528px) {.tagline {font-size:1rem;}}
+@media only screen and (max-width: 500px) {.tagline {font-size:0.75rem;}}
 .logo {
-	width:40%;
-	margin-left: 20rem;
-	margin-right: 20rem;
-	margin-top: 0.1%;
-	margin-bottom: 0.1%;
-	align-self: center;
+	width:30%;
 	border: hidden;
 }
 @media only screen and (max-width: 950px) {
 	.mobile-hidden {display:none;}}
 @media only screen and (min-width: 951px) {
 	.mobile-only {display:none;}}
-
-
-/*@media only screen and (max-width: 1300px) {
-	.logo {
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-bottom: 0.25%
-		}
-}
-*/
 
 h2 {
 	color:  #8bbfec;
@@ -60,7 +62,7 @@ p {
 }
 
 div {
-	border-radius: 1%;
+	border-radius: 25px;
 	padding: 3%;
 }
 
@@ -79,29 +81,57 @@ div {
 	margin-bottom:3%;
 }
 .navbar {
-	background-color: #1b2f4c;
-}	
-
+	margin-top:2%;
+	text-align: center;
+	background-color: #07172e;
+	align-items: center;
+	padding:0;
+	display: inline-block;
+	flex-direction: row;
+	justify-content: center;
+	width: 95%;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+li.navbar-item {
+		text-align: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0 10% 0 10%;
+		display: inline-flex;
+}
+@media only screen and (max-width: 820px) {li.navbar-item {padding: 0 5% 0 5%;}}
 a {
 	text-decoration: none;
 }
-a:link { 
+a:link {
 	color: #6f73db;
+	text-decoration: none;
+	:10;
 }
-a:visited { 
-	color: #413a7f;
+a:visited {
+	color: #6f73db;
+	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 ul {
 	color: #8bbfec;
+	font-family: "Inter", sans-serif;
+	font-size: 2rem;
+	list-style-type: lower-alpha;
+	padding: 0;
 }
 ol {
 	color: #8bbfec;
+	font-family: "Inter", sans-serif;
+	font-size: 2rem;
+	list-style-type: lower-alpha;
 }
 
-@media (min-width: 1668px) {
+@media (min-width: 1568px) {
 	.re-order .row {
 		display: flex;
 		display: -ms-flex;
@@ -114,7 +144,7 @@ ol {
 		order: 1;
 	}
 }
-@media (max-width: 1669px) {
+@media (max-width: 1569px) {
 	.re-order .row {
 		display: flex;
 		flex-direction: column;
@@ -125,4 +155,8 @@ ol {
 	.re-order .row .second {
 		order: 1;
 	}
+}
+
+img {
+	border-radius: 2rem;
 }
