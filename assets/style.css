@@ -81,16 +81,16 @@ div {
 	margin-top:2%;
 	text-align: center;
 	background-color: #07172e;
-	align-items: center;
 	padding:0;
-	display: inline-block;
-	flex-direction: row;
-	justify-content: center;
-	width: 95%;
+	display: block;
+	width: 94%;
+}
+@media only screen and (min-width: 1000px) {.navbar {
 	position: -webkit-sticky; /* Safari, ignore errors */
 	position: sticky;
 	top: 0;
-}
+	display: inline-block;
+}}
 li.navbar-item {
 		text-align: center;
 		list-style-type: none;
@@ -98,11 +98,14 @@ li.navbar-item {
 		padding: 0 10% 0 10%;
 		display: inline-flex;
 }
-@media only screen and (max-width: 820px) {li.navbar-item {padding: 0 5% 0 5%;}}
+@media only screen and (max-width: 1385px) {li.navbar-item {padding: 0 8% 0 8%;}}
+@media only screen and (max-width: 1070px) {li.navbar-item {padding: 0 5% 0 5%;}}
+@media only screen and (max-width: 820px) {li.navbar-item {padding: 0 3% 0 3%;}}
 a {
 	background-color: #091b35;
 	color: #bbcfec;
 	border: 2px #6f73db;
+	border-radius: 2rem;
 	font-size: 2rem;
 	padding: 10px 20px;
 	text-align: center;
@@ -111,6 +114,7 @@ a {
 	font-family: Manrope,sans-serif;
 	font-weight: bold;
 	margin: 10% 10% 10% 10%;
+	width: 200%;
 }
 a:hover, a:active {
 	background-color:#192b45;
