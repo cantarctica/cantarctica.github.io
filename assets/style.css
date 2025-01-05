@@ -59,6 +59,7 @@ p {
 	color:  #bbcfec;
 	font-family: "Inter", sans-serif;
 	font-size: 2rem;
+	text-align:center;
 }
 @media only screen and (max-width: 560px) {p {font-size: 1.5rem;}}
 div {
@@ -101,7 +102,8 @@ li.navbar-item {
 @media only screen and (max-width: 1385px) {li.navbar-item {padding: 0 3% 0 3%;}}
 @media only screen and (max-width: 1070px) {li.navbar-item {padding: 0 2% 0 2%;}}
 @media only screen and (max-width: 820px) {li.navbar-item {padding: 0 1% 0 1%;}}
-a {
+
+a.button {
 	background-color: #091b35;
 	color: #bbcfec;
 	border: 2px #6f73db;
@@ -126,7 +128,7 @@ a {
 @media only screen and (max-width: 1385px) {a {width: 60rem;}}
 @media only screen and (max-width: 1385px) {a {width: 30rem;}}
 @media only screen and (max-width: 584px) {a {width: 25rem;}}
-a:hover, a:active {
+a.button:hover, a.button:active {
 	background-color:#192b45;
 	color:#bbcfec;
 	font-size: 2.2rem;
