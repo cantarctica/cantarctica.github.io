@@ -61,7 +61,7 @@ p {
 	font-size: 2rem;
 	text-align:center;
 }
-@media only screen and (max-width: 560px) {p {font-size: 1.5rem;}}
+@media only screen and (max-width: 1060px) {p {font-size: 4vw;}}
 div {
 	border-radius: 25px;
 	padding: 3%;
@@ -121,13 +121,13 @@ a.button {
 	line-height: 5rem;
 }
 
-@media only screen and (max-width: 2220px) {a {width: 35rem;}}
-@media only screen and (max-width: 1965px) {a {width: 30rem;}}
-@media only screen and (max-width: 1700px) {a {width: 25rem;}}
-@media only screen and (max-width: 1450px) {a {width: 20rem;}}
-@media only screen and (max-width: 1385px) {a {width: 60rem;}}
-@media only screen and (max-width: 1385px) {a {width: 30rem;}}
-@media only screen and (max-width: 584px) {a {width: 25rem;}}
+@media only screen and (max-width: 2220px) {a.button {width: 25rem;}}
+@media only screen and (max-width: 1965px) {a.button {width: 25rem;}}
+@media only screen and (max-width: 1700px) {a.button {width: 25rem;}}
+@media only screen and (max-width: 1450px) {a.button {width: 20rem;}}
+@media only screen and (max-width: 1385px) {a.button {width: 60rem;}}
+@media only screen and (max-width: 1385px) {a.button {width: 30rem;}}
+@media only screen and (max-width: 584px) {a.button {width: 25rem;}}
 a.button:hover, a.button:active {
 	background-color:#192b45;
 	color:#bbcfec;
@@ -189,3 +189,5 @@ img {
 	clear: both;
 	display: table;
 }
+
+@media only screen and (max-width: 1020px) {.footertext {font-size:1rem;}}
