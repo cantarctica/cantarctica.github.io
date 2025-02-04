@@ -117,7 +117,7 @@ li.navbar-item {
 @media only screen and (max-width: 1385px) {li.navbar-item {padding: 0 3% 0 3%;}}
 @media only screen and (max-width: 1070px) {li.navbar-item {padding: 0 2% 0 2%;}}
 @media only screen and (max-width: 820px) {li.navbar-item {padding:0;}}
-
+a {text-decoration: none;}
 a.button {
 	background-color: #091b35;
 	color: #bbcfec;
