@@ -100,7 +100,7 @@ div {
 	width: 94%;
 }
 @media only screen and (min-width: 1382px) {.navbar {
-	position: -webkit-sticky; /* Safari, ignore errors */
+	position: -webkit-sticky; /* Legacy Safari, ignore errors */
 	position: sticky;
 	top: 0;
 	display: inline-block;
@@ -217,3 +217,8 @@ img {
 	background-color:#11213e;
 }
 @media only screen and (max-width: 1020px) {.footer-text {font-size:1rem;}}
+
+code {
+	background-color: #000f2c;
+	color: #cbdffc;
+}
