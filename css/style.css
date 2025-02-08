@@ -207,6 +207,7 @@ img {
 .post {
 	text-decoration: none;
 	text-decoration-style: wavy;
+	align-items: center;align-self: center;
 }
 
 .post:visited {
